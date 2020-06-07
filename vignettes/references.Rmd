@@ -1,0 +1,18 @@
+---
+title: "References-working"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{References-working"}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+Raw data: John Lloyd, Kent McFarland, Chris Rimmer, and Vermont Center for Ecostudies. 2015. Sierra de Bahoruco Constant-effort Mist Netting. Knowledge Network for Biocomplexity. doi:10.5063/F1M906K7.

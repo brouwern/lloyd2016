@@ -1,0 +1,37 @@
+---
+title: "Data access"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Data access"}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Raw data
+
+Data were downloaded from https://knb.ecoinformatics.org/view/doi:10.5063/F1M906K7 on June 6th 2020.
+
+The dataset consists of 3 files:
+
+1. jlloyd.5.1.csv: "Common English name and scientific name associated with bird species codes used in data package."
+1. jlloyd.7.3.csv "Bird captures from mist nets in Sierra de Bahoruco, Dominican Republic"
+1. jlloyd.9.1.csv: "Sierra_de_Bahoruco_Bird_Captures_Effort"
+
+
+The abstract for the data is:
+>"Data were collected during 22 visits to two sites in Sierra de Bahoruco National Park, Dominican Republic, from 1995 - 2010. During each visit, we operated a standardized array of 30-35 mist nets (12-m x 2.6-m, 36-mm mesh) at each site. Detailed information on capture effort is included in this data set. We placed U.S. Fish and Wildlife Service aluminum leg bands on all North American migrant species and custom-made, uniquely numbered leg bands (Gey Band and Tag Company) on all Hispaniolan resident species. We did not have leg bands that fit Hispaniolan Emeralds (Chlorostilbon swainsonii), so we temporarily marked individuals of this species by clipping the distal 2-3 mm of up to three rectrices in a unique pattern; doing so allowed us to identify within-session recaptures. We aged and sexed all North American species using standard criteria according to Pyle (1997) and all resident species using criteria available in field guides (Latta et al., 2006) or based on our own accumulated field knowledge."
+
+Raw data are located within the lloyd2016 package in the folder inst/extdata
+
+## Data tables from paper
+
+Data on capture effort from Table 1 of Lloyd et al (2016) was hand-entered into a .csv file (Lloyd_table1.csv).  This table represents the results of the original authors' workup of the file jlloyd.9.1.csv.
+
+

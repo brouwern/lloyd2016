@@ -1,0 +1,32 @@
+---
+title: "ReSciewnce TO DO"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ReSciewnce TO DO}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+How to submit?
+
+1. x Upload your code to a public repository (e.g. GitHub)
+1. Upload your data (if any) to a public repository (e.g. Zenodo)
+1. Write the corresponding paper using the proposed LaTeX template or your own template
+1. Fill metadata associated with your submission using the provided template
+1. Submit your paper
+1. Answer reviewers comments and modify your code and paper accordingly
+1. Once accepted, you will need to:  i) complete the metadata in collaboration with the editor
+ii) upload your code to Zenodo in order to get a DOI.
+
+This submission to ReScience-C was done in R
+https://github.com/ReScience-Archives/Petchey-Plebani-Pennekamp-2016
+
+Information on default Latex in RMarkdown is here
+https://bookdown.org/yihui/rmarkdown-cookbook/latex-template.html
